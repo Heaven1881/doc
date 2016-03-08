@@ -17,8 +17,16 @@ teacher/answer路径说明:
 
 ```json
     {
-        "student":{
-        
-        }
+        "student": {
+            "email": "test@test.com",
+            "username": "student"
+        },
+        "tried": 2,
+        "maxTry": 0,
+        "answer": [
+            {"time": "2012-01-01 12:45", "answer": "A"},
+            {"time": "2012-01-02 19:34", "answer": "B"}
+        ],
+        "q_number": 1140
     }
 ```
